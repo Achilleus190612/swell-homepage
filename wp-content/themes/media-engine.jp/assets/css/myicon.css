@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: myicon;
+  src: url("../fonts/myicon.woff2") format("woff2"),
+    url("../fonts/myicon.woff") format("woff"),
+    url("../fonts/myicon.svg#myicon") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.myicon {
+  display: inline-block;
+  font-family: myicon;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.myicon-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+.myicon-2x {
+  font-size: 2em;
+}
+
+.myicon-3x {
+  font-size: 3em;
+}
+
+.myicon-4x {
+  font-size: 4em;
+}
+
+.myicon-5x {
+  font-size: 5em;
+}
+
+.myicon-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.myicon-download::before {
+  content: "\EA01";
+}
+
+.myicon-external::before {
+  content: "\EA02";
+}
+
+.myicon-up::before {
+  content: "\EA03";
+}

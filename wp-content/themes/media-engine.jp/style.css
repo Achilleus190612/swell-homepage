@@ -1,0 +1,17 @@
+/*
+Theme Name: media-engine.jp
+Theme URI: https://media-engine.jp/
+Author: media-engine.jp
+Author URI: https://media-engine.jp/
+Description: media-engine.jpのテーマ
+Requires at least: 5.3
+Tested up to: 6.3.1
+Requires PHP: 7.3.5
+Version: 0.2
+Text Domain: media-engine.jp
+*/
+@media only screen and (min-width: 768px) {
+  .p-service-media::before {
+    height: 73rem;
+  }
+}
